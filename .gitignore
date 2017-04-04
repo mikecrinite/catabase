@@ -1,0 +1,5 @@
+# Ignore any webstorm stuff
+.idea/
+
+# Ignore anything called "connect.php"
+**/connect.php

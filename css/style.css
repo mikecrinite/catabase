@@ -1,0 +1,58 @@
+/*
+ * wide.css - for screens wider than 700 pixels
+ *
+ * Michael Crinite
+ */
+
+@media screen and (min-width:700px){
+/*
+ * settings for areas in the body
+ */
+html{
+  height:		100%;
+}
+
+body{
+  background:	url(./piano2.JPG);
+	background-size:100%;
+	font-family:	Georgia;
+	min-height:	100%;
+	margin:		0px;
+}
+
+/*
+ * wrapper contains all content above #tagline
+ */
+#wrapper {	width:		700px;
+	height:		100%;
+	left:		50%;
+	margin-left: 	-350px;
+  position: absolute;
+}
+
+#title {
+  text-align: 	center;
+	height: 	50px;
+  width: auto;
+	margin: 	5px;
+	height:		auto;
+	border:		1px solid black;
+	box-shadow:	2px 2px 5px grey;
+	border-radius:	3px;
+}
+
+#content {
+	width:	100%;
+}
+
+div.center {
+  margin: 0 auto;
+  width: 80em;
+}
+
+img.center {
+  width: 90%;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}

@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Catabase</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="center">
+      <span class="right"><div id = "navbar">
+        <ul id="nav_items">
+          <li><a href="#">sample1</a></li>
+          <li><a href="#">sample2</a></li>
+          <li><a href="#">sample3</a></li>
+        </ul>
+      </div></span> <!-- /navbar -->
+      <div id="content">
+        <h2>Login</h2>
+        <form name="RegistrationForm"
+              enctype="multipart/form-data" method="post"
+              action="../php/login.php"
+              onsubmit="return validateForm()">
+            <!-- TODO: Make this look nicer in style.css -->
+            <table id="login">
+                <tr>
+                    <td>
+                        username:
+                    </td>
+                    <td>
+                        <input id="user" type="text" name="username">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        password:
+                    </td>
+                    <td>
+                        <input id="pass" type="password" name="password">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p><a href="./register.html">register a new user</a></p>
+	  </div>
+        </div><!-- /post -->
+      </div><!-- /content -->
+    </div>
+  </body>
+</html>

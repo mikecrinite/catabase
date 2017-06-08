@@ -15,7 +15,7 @@
  </head>
  <body>
  
- <script>location.href="../Pages/index.html"</script>
+ <script>location.href="../pages/index.html"</script>
  </body>
 
 

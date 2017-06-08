@@ -45,7 +45,7 @@ if(password_verify($password, $dbpass)){
  </head>
  <body>
 <?php
-    echo "<script>location.href='../Pages/userprofile.html';</script>";
+    echo "<script>location.href='../pages/userprofile.html';</script>";
 }else{
     echo "<p>Incorrect Password</p>";
 }

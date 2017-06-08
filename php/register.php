@@ -53,7 +53,7 @@ $_SESSION['userID'] = $userID;
 <body>
 <?php
 
-echo "<script>location.href='../Pages/userprofile.html';
+echo "<script>location.href='../pages/userprofile.html';
       </script>";
 $stmt = null;
 ?>

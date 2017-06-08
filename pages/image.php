@@ -1,0 +1,38 @@
+<?php
+    session_start();
+?>
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Catabase</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="center">
+      <span class="right"><div id = "navbar">
+        <ul id="nav_items">
+          <li><a href="#">sample1</a></li>
+          <li><a href="#">sample2</a></li>
+          <li><a href="#">sample3</a></li>
+        </ul>
+      </div></span> <!-- /navbar -->
+      <div id="content">
+        <div id="post">
+          <h1 id="title">Droopy</h1>
+          <a href=../img/Droopy.jpg><img id="postimg" class="center" src="../img/Droopy.jpg" alt=""></a>
+          <div id="description">
+            Droopy the beagle.
+          </div>
+          <div id="op">
+            <h3>mikecrinite</h3>
+          </div>
+          <div id="comments">
+
+	  </div>
+        </div><!-- /post -->
+      </div><!-- /content -->
+    </div>
+  </body>
+</html>

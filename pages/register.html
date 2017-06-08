@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>Catabase</title>
+    <link rel="stylesheet" href="../css/style.css">
+    <script src="../js/script.js"></script>
+  </head>
+  <body>
+    <div id="wrapper" class="center">
+      <span class="right"><div id = "navbar">
+        <ul id="nav_items">
+          <li><a href="#">sample1</a></li>
+          <li><a href="#">sample2</a></li>
+          <li><a href="#">sample3</a></li>
+        </ul>
+      </div></span> <!-- /navbar -->
+      <div id="content">
+        <h2>User Registration</h2>
+        <form name="RegistrationForm"
+              enctype="multipart/form-data" method="post"
+              action="../php/register.php"
+              onsubmit="return validateForm()">
+            <table>
+                <tr>
+                    <td>
+                        enter a username:
+                    </td>
+                    <td>
+                        <input type="text" name="username1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        confirm username:
+                    </td>
+                    <td>
+                        <input type="text" name="username2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        enter your email address:
+                    </td>
+                    <td>
+                        <input type="text" name="email1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        confirm your email address:
+                    </td>
+                    <td>
+                        <input type="text" name="email2">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        enter a password:
+                    </td>
+                    <td>
+                        <input type="password" name="password1">
+                    </td>
+                </tr>
+                <tr>
+                    <td>
+                        confirm password:
+                    </td>
+                    <td>
+                        <input type="password" name="password2">
+                    </td>
+                </tr>
+                <tr>
+                    <td></td>
+                    <td>
+                        <input type="submit" name="submit">
+                    </td>
+                </tr>
+            </table>
+        </form>
+        <p><a href="./login.html">log in to an existing user</a></p>
+	  </div>
+        </div><!-- /post -->
+      </div><!-- /content -->
+    </div>
+  </body>
+</html>
